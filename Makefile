@@ -1,18 +1,19 @@
 # Variables
-DOCKER_REGISTRY=langgenius
+DOCKER_REGISTRY=registry.cn-shanghai.aliyuncs.com/usoftgs
 WEB_IMAGE=$(DOCKER_REGISTRY)/dify-web
 API_IMAGE=$(DOCKER_REGISTRY)/dify-api
 VERSION=latest
+PLATFORM=linux/arm64
 
 # Build Docker images
 build-web:
 	@echo "Building web Docker image: $(WEB_IMAGE):$(VERSION)..."
-	docker build -t $(WEB_IMAGE):$(VERSION) ./web
+	docker build -t $(WEB_IMAGE):$(VERSION) --platform $(PLATFORM) ./web
 	@echo "Web Docker image built successfully: $(WEB_IMAGE):$(VERSION)"
 
 build-api:
 	@echo "Building API Docker image: $(API_IMAGE):$(VERSION)..."
-	docker build -t $(API_IMAGE):$(VERSION) ./api
+	docker build -t $(API_IMAGE):$(VERSION) --platform $(PLATFORM) ./api
 	@echo "API Docker image built successfully: $(API_IMAGE):$(VERSION)"
 
 # Push Docker images
