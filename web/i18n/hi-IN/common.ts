@@ -54,6 +54,7 @@ const translation = {
     in: 'में',
     copied: 'कॉपी किया गया',
     viewDetails: 'विवरण देखें',
+    manage: 'प्रबंधन',
   },
   errorMsg: {
     fieldRequired: '{{field}} आवश्यक है',

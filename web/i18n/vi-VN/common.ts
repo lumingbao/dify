@@ -153,6 +153,7 @@ const translation = {
     community: 'Cộng đồng',
     about: 'Về chúng tôi',
     logout: 'Đăng xuất',
+    manage: 'Quản lý',
   },
   settings: {
     accountGroup: 'TÀI KHOẢN',

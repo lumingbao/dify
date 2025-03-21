@@ -157,6 +157,7 @@ const translation = {
     community: 'コミュニティ',
     about: 'Difyについて',
     logout: 'ログアウト',
+    manage: '管理',
   },
   settings: {
     accountGroup: 'アカウント',

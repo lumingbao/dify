@@ -149,6 +149,7 @@ const translation = {
     community: '커뮤니티',
     about: 'Dify 소개',
     logout: '로그아웃',
+    manage: '관리',
   },
   settings: {
     accountGroup: '계정',

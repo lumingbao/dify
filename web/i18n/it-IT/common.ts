@@ -162,6 +162,7 @@ const translation = {
     community: 'Comunità',
     about: 'Informazioni',
     logout: 'Esci',
+    manage: 'Gestire',
   },
   settings: {
     accountGroup: 'ACCOUNT',

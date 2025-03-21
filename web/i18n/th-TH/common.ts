@@ -152,6 +152,7 @@ const translation = {
     community: 'ชุมชน',
     about: 'ประมาณ',
     logout: 'ออกจากระบบ',
+    manage: 'การจัดการ',
   },
   settings: {
     accountGroup: 'ทั่วไป',

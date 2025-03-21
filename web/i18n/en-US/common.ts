@@ -162,6 +162,7 @@ const translation = {
     community: 'Community',
     about: 'About',
     logout: 'Log out',
+    manage: 'Manage',
   },
   compliance: {
     soc2Type1: 'SOC 2 Type I Report',

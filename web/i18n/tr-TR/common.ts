@@ -157,6 +157,7 @@ const translation = {
     community: 'Topluluk',
     about: 'Hakkında',
     logout: 'Çıkış Yap',
+    manage: 'Yönet',
   },
   settings: {
     accountGroup: 'HESAP',

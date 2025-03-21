@@ -153,6 +153,7 @@ const translation = {
     community: 'Gemeinschaft',
     about: 'Über',
     logout: 'Abmelden',
+    manage: 'Verwalten',
   },
   settings: {
     accountGroup: 'KONTO',

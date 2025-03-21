@@ -65,6 +65,11 @@ const MenuDropdown: FC<Props> = ({
                   <span className='grow'>{t('share.chat.privacyPolicyMiddle')}</span>
                 </a>
               )}
+              <a href='/' target='_blank'>
+                <div
+                  className='px-3 py-1.5 rounded-lg text-text-secondary system-md-regular cursor-pointer hover:bg-state-base-hover'
+                >{t('common.userProfile.manage')}</div>
+              </a>
               <div
                 onClick={() => {
                   handleTrigger()

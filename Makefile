@@ -2,7 +2,7 @@
 DOCKER_REGISTRY=registry.cn-shanghai.aliyuncs.com/usoftgs
 WEB_IMAGE=$(DOCKER_REGISTRY)/dify-web
 API_IMAGE=$(DOCKER_REGISTRY)/dify-api
-VERSION=latest
+VERSION=usoftgs-latest
 PLATFORM=linux/arm64
 
 # Build Docker images

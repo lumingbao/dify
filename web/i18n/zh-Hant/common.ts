@@ -153,6 +153,7 @@ const translation = {
     community: '社群',
     about: '關於',
     logout: '登出',
+    manage: '管理',
   },
   settings: {
     accountGroup: '賬戶',

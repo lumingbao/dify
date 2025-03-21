@@ -157,6 +157,7 @@ const translation = {
     community: 'Skupnost',
     about: 'O nas',
     logout: 'Odjava',
+    manage: 'Riadiť',
   },
   settings: {
     accountGroup: 'SPLOŠNO',

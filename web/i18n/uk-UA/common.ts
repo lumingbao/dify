@@ -153,6 +153,7 @@ const translation = {
     community: 'Спільнота',
     about: 'Про нас',
     logout: 'Вийти',
+    manage: 'керувати',
   },
   settings: {
     accountGroup: 'ОБЛІКОВИЙ ЗАПИС',

@@ -157,6 +157,7 @@ const translation = {
     community: 'انجمن',
     about: 'درباره',
     logout: 'خروج',
+    manage: 'مدیریت',
   },
   settings: {
     accountGroup: 'حساب کاربری',
