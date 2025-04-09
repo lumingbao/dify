@@ -46,7 +46,7 @@ const Chatbot = () => {
       if (customConfig)
         document.title = `${site.title}`
       else
-        document.title = `${site.title} - Powered by Dify`
+        document.title = `${site.title} - 智教甘肃大模型平台`
     }
   }, [site, customConfig, themeBuilder])
 
@@ -116,7 +116,7 @@ const Chatbot = () => {
                 <img src={appData?.custom_config?.replace_webapp_logo} alt='logo' className='block h-5 w-auto' />
               )}
               {!appData?.custom_config?.replace_webapp_logo && (
-                <LogoSite className='!h-5' />
+                <LogoSite />
               )}
             </div>
           )}

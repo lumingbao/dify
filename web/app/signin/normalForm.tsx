@@ -136,7 +136,7 @@ const NormalForm = () => {
           </div>
           : <div className="mx-auto w-full">
             <h2 className="title-4xl-semi-bold text-text-primary">{t('login.pageTitle')}</h2>
-            <p className='body-md-regular mt-2 text-text-tertiary'>{t('login.welcome')}</p>
+            {/*<p className='body-md-regular mt-2 text-text-tertiary'>{t('login.welcome')}</p>*/}
           </div>}
         <div className="relative">
           <div className="mt-6 flex flex-col gap-3">
@@ -184,21 +184,21 @@ const NormalForm = () => {
               </div>
             </div>
           </>}
-          <div className="system-xs-regular mt-2 block w-full text-text-tertiary">
-            {t('login.tosDesc')}
-            &nbsp;
-            <Link
-              className='system-xs-medium text-text-secondary hover:underline'
-              target='_blank' rel='noopener noreferrer'
-              href='https://dify.ai/terms'
-            >{t('login.tos')}</Link>
-            &nbsp;&&nbsp;
-            <Link
-              className='system-xs-medium text-text-secondary hover:underline'
-              target='_blank' rel='noopener noreferrer'
-              href='https://dify.ai/privacy'
-            >{t('login.pp')}</Link>
-          </div>
+          {/*<div className="system-xs-regular mt-2 block w-full text-text-tertiary">*/}
+          {/*  {t('login.tosDesc')}*/}
+          {/*  &nbsp;*/}
+          {/*  <Link*/}
+          {/*    className='system-xs-medium text-text-secondary hover:underline'*/}
+          {/*    target='_blank' rel='noopener noreferrer'*/}
+          {/*    href='https://dify.ai/terms'*/}
+          {/*  >{t('login.tos')}</Link>*/}
+          {/*  &nbsp;&&nbsp;*/}
+          {/*  <Link*/}
+          {/*    className='system-xs-medium text-text-secondary hover:underline'*/}
+          {/*    target='_blank' rel='noopener noreferrer'*/}
+          {/*    href='https://dify.ai/privacy'*/}
+          {/*  >{t('login.pp')}</Link>*/}
+          {/*</div>*/}
           {IS_CE_EDITION && <div className="w-hull system-xs-regular mt-2 block text-text-tertiary">
             {t('login.goToInit')}
             &nbsp;

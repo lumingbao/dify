@@ -8,7 +8,7 @@ const translation = {
   },
   webapp: {
     title: 'Customize WebApp brand',
-    removeBrand: 'Remove Powered by Dify',
+    removeBrand: 'Remove 智教甘肃大模型平台',
     changeLogo: 'Change Powered by Brand Image',
     changeLogoTip: 'SVG or PNG format with a minimum size of 40x40px',
   },

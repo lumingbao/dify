@@ -81,30 +81,30 @@ const Sidebar = ({ isPanel }: Props) => {
       'flex w-full grow flex-col',
       isPanel && 'rounded-xl border-[0.5px] border-components-panel-border-subtle bg-components-panel-bg shadow-lg',
     )}>
-      <div className={cn(
-        'flex shrink-0 items-center gap-3 p-3 pr-2',
-      )}>
-        <div className='shrink-0'>
-          <AppIcon
-            size='large'
-            iconType={appData?.site.icon_type}
-            icon={appData?.site.icon}
-            background={appData?.site.icon_background}
-            imageUrl={appData?.site.icon_url}
-          />
-        </div>
-        <div className={cn('system-md-semibold grow truncate text-text-secondary')}>{appData?.site.title}</div>
-        {!isMobile && isSidebarCollapsed && (
-          <ActionButton size='l' onClick={() => handleSidebarCollapse(false)}>
-            <RiExpandRightLine className='h-[18px] w-[18px]' />
-          </ActionButton>
-        )}
-        {!isMobile && !isSidebarCollapsed && (
-          <ActionButton size='l' onClick={() => handleSidebarCollapse(true)}>
-            <RiLayoutLeft2Line className='h-[18px] w-[18px]' />
-          </ActionButton>
-        )}
-      </div>
+      {/*<div className={cn(*/}
+      {/*  'flex shrink-0 items-center gap-3 p-3 pr-2',*/}
+      {/*)}>*/}
+      {/*  <div className='shrink-0'>*/}
+      {/*    <AppIcon*/}
+      {/*      size='large'*/}
+      {/*      iconType={appData?.site.icon_type}*/}
+      {/*      icon={appData?.site.icon}*/}
+      {/*      background={appData?.site.icon_background}*/}
+      {/*      imageUrl={appData?.site.icon_url}*/}
+      {/*    />*/}
+      {/*  </div>*/}
+      {/*  <div className={cn('system-md-semibold grow truncate text-text-secondary')}>{appData?.site.title}</div>*/}
+      {/*  {!isMobile && isSidebarCollapsed && (*/}
+      {/*    <ActionButton size='l' onClick={() => handleSidebarCollapse(false)}>*/}
+      {/*      <RiExpandRightLine className='h-[18px] w-[18px]' />*/}
+      {/*    </ActionButton>*/}
+      {/*  )}*/}
+      {/*  {!isMobile && !isSidebarCollapsed && (*/}
+      {/*    <ActionButton size='l' onClick={() => handleSidebarCollapse(true)}>*/}
+      {/*      <RiLayoutLeft2Line className='h-[18px] w-[18px]' />*/}
+      {/*    </ActionButton>*/}
+      {/*  )}*/}
+      {/*</div>*/}
       <div className='shrink-0 px-3 py-4'>
         <Button variant='secondary-accent' disabled={isResponding} className='w-full justify-center' onClick={handleNewConversation}>
           <RiEditBoxLine className='mr-1 h-4 w-4' />
@@ -148,7 +148,7 @@ const Sidebar = ({ isPanel }: Props) => {
                 <img src={appData?.custom_config?.replace_webapp_logo} alt='logo' className='block h-5 w-auto' />
               )}
               {!appData?.custom_config?.replace_webapp_logo && (
-                <LogoSite className='!h-5' />
+                <LogoSite />
               )}
             </div>
           )}

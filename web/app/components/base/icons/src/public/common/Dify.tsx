@@ -15,6 +15,6 @@ const Icon = (
   },
 ) => <IconBase {...props} ref={ref} data={data as IconData} />
 
-Icon.displayName = 'Dify'
+Icon.displayName = '智教甘肃大模型平台'
 
 export default Icon

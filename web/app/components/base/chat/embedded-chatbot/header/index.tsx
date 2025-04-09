@@ -49,7 +49,7 @@ const Header: FC<IHeaderProps> = ({
                   <img src={appData?.custom_config?.replace_webapp_logo} alt='logo' className='block h-5 w-auto' />
                 )}
                 {!appData?.custom_config?.replace_webapp_logo && (
-                  <LogoSite className='!h-5' />
+                  <LogoSite />
                 )}
               </div>
             )}

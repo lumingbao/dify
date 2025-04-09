@@ -49,7 +49,7 @@ const ChatWithHistory: FC<ChatWithHistoryProps> = ({
       if (customConfig)
         document.title = `${site.title}`
       else
-        document.title = `${site.title} - Powered by Dify`
+        document.title = `${site.title} - 智教甘肃大模型平台`
     }
   }, [site, customConfig, themeBuilder])
 

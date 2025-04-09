@@ -420,7 +420,7 @@ const TextGeneration: FC<IMainProps> = ({
       if (canReplaceLogo)
         document.title = `${siteInfo.title}`
       else
-        document.title = `${siteInfo.title} - Powered by Dify`
+        document.title = `${siteInfo.title} - 智教甘肃大模型平台`
     }
   }, [siteInfo?.title, canReplaceLogo])
 
@@ -628,7 +628,7 @@ const TextGeneration: FC<IMainProps> = ({
               <img src={customConfig?.replace_webapp_logo} alt='logo' className='block h-5 w-auto' />
             )}
             {!customConfig?.replace_webapp_logo && (
-              <LogoSite className='!h-5' />
+              <LogoSite />
             )}
           </div>
         )}
